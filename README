@@ -1,0 +1,4 @@
+npm init na inicjalizacje serwera
+node client.js na uruchomienie klienta
+
+serwer i klient wymagaja instalacji node.js oraz npm
