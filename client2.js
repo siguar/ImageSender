@@ -1,6 +1,6 @@
 const chokidar = require('chokidar');
 
-var getAdress = "192.168.3.30:3000";
+var getAdress = "192.168.3.10:3000";
 let axios = require('axios');
 let FormData = require('form-data')
 var fs = require('fs');
