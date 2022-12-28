@@ -20,7 +20,7 @@ const sendPostRequest = async (formData) => {
 
 // One-liner for current directory
 chokidar.watch('/home/pi/pics/').on('add', async (inputPath) => {
-	await new Promise(resolve => setTimeout(resolve, 1`))
+	await new Promise(resolve => setTimeout(resolve, 1))
   const data = await fs.promises.readFile(inputPath);
 	console.log("bloto3");
 	let form = new FormData();
